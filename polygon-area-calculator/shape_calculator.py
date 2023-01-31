@@ -1,5 +1,5 @@
+#creates parent Rectangle class
 class Rectangle:
-
   def __init__(self, w, h):
     self.width = w
     self.height = h
@@ -36,9 +36,8 @@ class Rectangle:
   def __str__(self):
     return f'Rectangle(width={self.width}, height={self.height})'
 
-
+#creates child Square class
 class Square(Rectangle):
-
   def __init__(self, sLen):
     self.width = sLen
     self.height = sLen
