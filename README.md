@@ -1,8 +1,5 @@
 # Scientific Computing with Python Projects
-5 projects completed through the "Scientific Computing with Python" course by freeCodeCamp
-
-
-[Certificate](https://www.freecodecamp.org/certification/rushi_at/scientific-computing-with-python-v7 "Certificate")
+5 projects completed through the "Scientific Computing with Python" course by freeCodeCamp ([Certificate](https://www.freecodecamp.org/certification/rushi_at/scientific-computing-with-python-v7 "Certificate"))
 
 
 - [Budget App](https://replit.com/@RushiAthavale1/rushi-budget-app?v=1 "Budget App")
