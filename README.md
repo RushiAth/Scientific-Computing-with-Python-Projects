@@ -1,6 +1,10 @@
 # Scientific Computing with Python Projects
 5 projects completed through the "Scientific Computing with Python" course by freeCodeCamp
 
+
+##[Certificate](https://www.freecodecamp.org/certification/rushi_at/scientific-computing-with-python-v7 "Certificate")
+
+
 - [Budget App](https://replit.com/@RushiAthavale1/rushi-budget-app?v=1 "Budget App")
 - [Arithmetic Formatter](https://replit.com/@RushiAthavale1/rushi-arithmetic-formatter?v=1 "Arithmetic Formatter")
 - [Time Calculator](https://replit.com/@RushiAthavale1/rushi-time-calculator?v=1 "Time Calculator")
