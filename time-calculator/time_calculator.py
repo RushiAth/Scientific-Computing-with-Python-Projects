@@ -10,6 +10,7 @@ def add_time(start, duration, day=-1):
   currHour, currMin = tuple(map(int, time.split(':')))
   addHour, addMin = tuple(map(int, duration.split(':')))
 
+  #adjusts inputs
   if ap == "PM":
     currHour += 12
 
@@ -17,8 +18,7 @@ def add_time(start, duration, day=-1):
     day = day.capitalize()
     day = dayNum[day]
 
-  #print(f'Current Time = {currHour:2d}:{currMin:02d}')
-
+    
   #adjusts current minutes
   currMin += addMin
 
@@ -38,9 +38,7 @@ def add_time(start, duration, day=-1):
     day += n
     day %= 7
     
-  # print(f'Current Time = {currHour:2d}:{currMin:02d}')
-  # print(f'{n:02d}\n')
-
+  #converts time to proper format
   if currHour >= 0 and currHour < 12:
     ap = "AM"
     if currHour == 0:
@@ -50,6 +48,8 @@ def add_time(start, duration, day=-1):
     if currHour != 12:
       currHour -= 12
 
+      
+  #creates return string
   currHour = str(currHour)
   currMin = f'{currMin:02d}'
   
