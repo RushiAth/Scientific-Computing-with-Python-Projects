@@ -1,9 +1,8 @@
 import copy
 import random
-# Consider using the modules imported above.
 
+#defining the Hat class that holds all of the balls
 class Hat:
-
   def __init__(self, **kwargs):
     self.contents = []
 
@@ -23,6 +22,7 @@ class Hat:
 
     return drawn
 
+#runs the experiment to determine the probability of the expected_balls
 def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
   m = 0
 
