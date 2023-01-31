@@ -1,5 +1,5 @@
+#creates Category class
 class Category:
-
   def __init__(self, cat=""):
     self.budgetCat = cat
     self.ledger = []
@@ -34,7 +34,7 @@ class Category:
   def __str__(self):
     n = 30-len(self.budgetCat)
     returning = '*'*(n//2) + self.budgetCat
-    n = n - (n//2)
+    n -= (n//2)
     returning += '*'*n + '\n'
 
     for line in self.ledger:
@@ -45,7 +45,7 @@ class Category:
 
     return returning
 
-
+#creates bar graph using category spending data
 def create_spend_chart(categories):
 
   returning = "Percentage spent by category\n"
